@@ -1,0 +1,20 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url(img/fundin.jpg);
+  min-height: 100%;
+  background-size: cover;
+}
+.w3-display-middle {
+  text-align: center;
+}
+
+.w3-display-middle .w3-btn {
+  margin-top: 20px;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
