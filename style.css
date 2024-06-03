@@ -1,5 +1,10 @@
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
+body,h1 {
+  font-family: "Raleway", sans-serif
+}
+body, html {
+  height: 100%
+}
+
 .imagemfundo {
   background-image: url(img/fundin.jpg);
   min-height: 100%;
@@ -16,7 +21,7 @@ body, html {height: 100%}
   margin: auto;
   width: 100%;
 }
-.barraNav {
+.iconeLogin {
   position: absolute;
   top: 0;
   right: 0;
@@ -36,7 +41,7 @@ body, html {height: 100%}
   right: auto;
   padding: 20px;
   color: white;     
-  text-transform: uppercase; ;
+  text-transform: uppercase;
   line-height: inherit;
   white-space: nowrap;
   text-decoration: none;
