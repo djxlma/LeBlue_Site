@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -11,8 +16,8 @@ section {
 }
   
 h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 64px;
+    margin-bottom: 10px;
 }
   
 p {
@@ -20,12 +25,6 @@ p {
     line-height: 1.5;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-}
-  
 .imagemfundo {
     background-image: url(img/fundin.jpg);
     min-height: 100%;
@@ -43,7 +42,9 @@ body, html {
     from {top: -100px; opacity: 0} 
     to {top: 0; opacity: 1}
 }
-  
+.textoMenor{
+    font-size: 18px;
+}
 .barrinha {
     margin: auto;
     width: 100%;
@@ -76,19 +77,6 @@ body, html {
     border-radius: 4px;
 }
 
-  
-.navbar-dark .navbar-brand {
-    color: #2196F3; 
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    font-weight: 900;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    text-decoration: none;
-    font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-  
 .btn {
     display: inline-block;
     padding: 8px 16px;
@@ -100,7 +88,7 @@ body, html {
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
-    margin-top: 30px;
+    margin-top: 8px;
     border: 1px solid #2196F3;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s,  box-shadow 0.3s;
@@ -113,4 +101,18 @@ body, html {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-    }
+}
+.leblueNav .textoLeblue {
+    font-size: 1.8rem;     
+    font-weight: 900;
+    margin: 0;
+    position: absolute;
+    right: auto;
+    padding: 20px;
+    color: white;     
+    text-transform: uppercase;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
