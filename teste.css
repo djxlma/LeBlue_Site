@@ -33,11 +33,15 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     color: white;
     text-align: center;
     animation: animateTop 1s;
 }
+.imagemfundo > div {
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
 
 @keyframes animateTop {
     from {top: -100px; opacity: 0} 
