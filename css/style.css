@@ -27,7 +27,7 @@ p {
     line-height: 1.5;
 }
 .imagemfundo {
-    background-image: url(img/fundin.jpg);
+    background-image: url(/img/fundin.jpg);
     min-height: 100vh;
     background-size: cover;
     display: flex;
