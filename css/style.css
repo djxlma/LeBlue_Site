@@ -9,11 +9,20 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/img/background.jpg') no-repeat;
+}
+.imagemFundo{
+    display: flex;
+    position: relative;
+    background: url('/img/background.jpg');
     background-size: cover;
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -325,3 +334,4 @@ header {
         opacity: 1;
     }
 }
+
