@@ -1,64 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <title>LeBlue</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/sections.css">
+    <title>LeBlue</title>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <div class="iconeLogin">
-            <a href="#"><i class="fa fa-sign-in"></i></a>
-        </div>
-        <nav class="leblueNav">
-            <a class="textoLeblue" href="index.html">LEBLUE</a>
+    <header>
+        <h2 class="logo">LeBlue</h2>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <button class="btnLogin-popup"><i class="fa fa-sign-in"></i></button>
         </nav>
     </header>
-    <div class="imagemfundo">
-        <div>
-            <h1>LEBLUE</h1>
-            <hr class="barrinha">
-            <p class="textoMenor">Por um mundo mais limpo</p>
-            <a href="#sec1" class="btn">Saiba Mais</a>
-        </div>    
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-sharp"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-sharp"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="manter-logado">
+                    <label><input type="checkbox">Manter Logado</label>
+                    <a href="">Esqueceu sua senha?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-registro">
+                    <p>Não possui uma conta? <a href="#" class="registro-link"> Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box registro">
+            <h2>Cadastro</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nome de Usuário</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-sharp"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-sharp"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="manter-logado">
+                    <label><input type="checkbox">Eu concordo com os termos & condições</label>
+                </div>
+                <button type="submit" class="btn">Cadastre-se</button>
+                <div class="login-registro">
+                    <p>Já possui uma conta? <a href="#" class="login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
     </div>
     <main>
-        <section id="sec1">
-            <h1>O problema</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>  
-        </section>
-        <section>
-            <h1>Qual a tecnologia que pretendem utilizar</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-        </section>
-        <section>
-            <h1>Quais os objetivos pretendem alcançar </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-        </section>
-        <section>
-            <h1>Qual o público que será impactado</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-        </section>
-        <section>
-            <h1>Quais os benefícios oferecidos pela solução</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-        </section>
-        <section>
-            <h1>Como essa solução pode ajudar no dia a dia das pessoas que irão utilizá-la</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestiae id dolor vero repellendus commodi accusamus dicta temporibus impedit laboriosam.</p>
-        </section>
+        <div>
+            <nav class="textosHome">
+                <h1>LEBLUE</h1>
+                <hr class="barrinha">
+                <p class="textoMenor">Por um mundo mais limpo</p>
+                <a href="#" class="saibaMais">Saiba Mais</a>
+            </nav>
+        </div>
     </main>
+
+
+
+
+
+
+
+
+
+    <script src="/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
