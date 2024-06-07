@@ -19,3 +19,21 @@ btnPopup.addEventListener('click', ()=> {
 iconClose.addEventListener('click', ()=> {
     wrapper.classList.remove('popup-ativado');
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var saibaMaisLink = document.querySelector('.saibaMais');
+    var btnSaibaSlide = document.querySelector('.slide[alt="btnSaiba"]');
+
+    saibaMaisLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Impede o comportamento padrão do link
+
+        // Calcula a posição da seção desejada em relação ao topo da página
+        var offsetTop = btnSaibaSlide.offsetTop;
+
+        // Faz a rolagem suave até a posição da seção
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});
