@@ -6,7 +6,9 @@
     font-family: 'Poppins', sans-serif;
     animation: animateTop 0.5s;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     display: flex;
     flex-direction: column;
