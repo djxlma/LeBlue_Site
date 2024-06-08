@@ -61,7 +61,7 @@
 
 .penetrate-blur h1 {
     font-size: 250px;
-    text-shadow: 0 0 12px rgba(255, 255, 255, .9);
+    text-shadow: 0 0 10px rgba(255, 255, 255, .9);
 }
 
 .slide:nth-child(1) .penetrate-blur h1,
